@@ -1,0 +1,63 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"SB\BG4.jpg",320,240
+ M,0,89825,100860,373,278,314,232
+Sprite,Background,Centre,"SB\BG5.jpg",320,240
+ M,0,100860,111894,305,285,258,233
+Sprite,Background,Centre,"SB\Layer1.jpg",320,240
+ C,0,-355,,0,0,0
+ F,0,154653,155343,0,1
+ F,0,155343,178101,1
+Sprite,Background,Centre,"SB\New Canvas.png",320,240
+ M,0,78446,88446,245,301,269,280
+Sprite,Background,Centre,"SB\BG6.jpg",320,240
+ M,0,111894,133963,281,240,381,240
+Sprite,Background,Centre,"SB\BG2.jpg",320,240
+ M,0,200170,216722,370,274,274,280
+Sprite,Background,Centre,"SB\BG3.jpg",320,240
+ M,0,133963,154653,400,299,286,217
+ F,0,155343,156032,1,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB\BG1.jpg",320,240
+ M,0,12584,23618,276,219,323,213
+ S,0,12584,23618,1,0.9180807
+ F,0,22239,23618,1,0
+Sprite,Foreground,Centre,"SB\Layer1.jpg",320,240
+ C,0,-355,,0,0,0
+ F,0,77412,78446,0,1
+ F,0,78446,79481,1,0
+ F,0,215343,216722,0,1
+ F,0,216722,219481,1
+Sprite,Foreground,Centre,"SB\BG7.jpg",320,240
+ S,0,156032,167067,1,1.1
+ F,0,166377,167067,1,0
+Sprite,Foreground,Centre,"SB\BG8.jpg",320,240
+ S,0,167067,178101,1,0.8
+ F,0,177412,178101,1,0
+Sprite,Foreground,Centre,"SB\Layer1.jpg",320,240
+ F,0,11205,12584,0,1
+ F,0,12584,15343,1,0
+ F,0,20860,22239,0,1
+ F,0,22239,23618,1
+ F,0,23618,24998,1,0
+ F,0,87067,88446,0,1
+ F,0,88446,89825,1
+ F,0,89825,92584,1,0
+ F,0,99481,100860,0,1
+ F,0,100860,102239,1,0
+ F,0,110515,111894,0,1
+ F,0,111894,114653,1,0
+ F,0,132584,133963,0,1
+ F,0,133963,135343,1,0
+ F,0,154653,156032,0,1
+ F,0,156032,157412,1,0
+ F,0,165687,167067,0,1
+ F,0,167067,168446,1,0
+ F,0,176722,178101,0,1
+ F,0,178101,179481,1,0
+ F,0,198791,200170,0,1
+ F,0,200170,201549,1,0
+//Storyboard Sound Samples

@@ -1,0 +1,287 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"BG.png",320,240
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB/bgstar.png",320,240
+ M,0,-90,79700,320,240
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,69,LoopForever
+ L,-90,200
+  M,0,-90,326,320,240
+ M,0,0,236,323,232,320,240
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,73,LoopForever
+ L,50,200
+  M,0,-90,326,550,230
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,77,LoopForever
+ L,-90,200
+  M,0,-90,326,450,80
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,81,LoopForever
+ L,-90,200
+  M,0,-90,326,160,290
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,85,LoopForever
+ L,50,200
+  M,0,-90,326,10,120
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,89,LoopForever
+ L,50,200
+  M,0,-90,326,250,380
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,93,LoopForever
+ L,-90,200
+  M,0,-90,326,440,420
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,97,LoopForever
+ L,-90,200
+  M,0,-90,326,50,240
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,101,LoopForever
+ L,50,200
+  M,0,-90,326,150,80
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,105,LoopForever
+ L,-90,200
+  M,0,-90,326,440,280
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,149,LoopForever
+ L,-90,200
+  M,0,-90,326,580,310
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,151,LoopForever
+ L,-90,200
+  M,0,-90,326,420,20
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,154,LoopForever
+ L,-90,200
+  M,0,-90,326,150,40
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,100,LoopForever
+ L,-90,200
+  M,0,-90,326,200,440
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,150,LoopForever
+ L,-90,200
+  M,0,-90,326,540,420
+Animation,Foreground,Centre,"SB/Starwhite/starwhite-.png",320,240,12,100,LoopForever
+ L,-90,200
+  M,0,-90,326,590,130
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,99,LoopForever
+ L,-90,200
+  M,0,-90,743,251,334
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,102,LoopForever
+ L,-90,200
+  M,0,-90,743,340,380
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,105,LoopForever
+ L,-90,200
+  M,0,-90,743,440,350
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,109,LoopForever
+ L,-90,200
+  M,0,-90,743,80,50
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,111,LoopForever
+ L,-90,200
+  M,0,-90,743,220,230
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,114,LoopForever
+ L,-90,200
+  M,0,-90,743,120,420
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,117,LoopForever
+ L,-90,200
+  M,0,-90,743,560,360
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,120,LoopForever
+ L,-90,200
+  M,0,-90,743,80,190
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,123,LoopForever
+ L,-90,200
+  M,0,-90,743,280,80
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,126,LoopForever
+ L,-90,200
+  M,0,-90,743,560,40
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,139,LoopForever
+ L,-90,200
+  M,0,-90,743,370,270
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,142,LoopForever
+ L,-90,200
+  M,0,-90,743,10,190
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,145,LoopForever
+ L,-90,200
+  M,0,-90,743,440,70
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,145,LoopForever
+ L,-90,200
+  M,0,-90,743,160,70
+Animation,Foreground,Centre,"SB/StarBlue/starblue-.png",320,240,6,120,LoopForever
+ L,-90,200
+  M,0,-90,743,330,440
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,0,200
+  F,0,0,118,0,1
+  M,0,0,534,21,218,56,-15
+  F,0,118,326,1,0.5
+  F,0,326,534,0.5,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,50,200
+  F,0,0,118,0,1
+  M,0,0,743,155,327,660,368
+  F,0,118,534,1
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,100,200
+  F,0,0,118,0.2373332,1
+  M,0,0,743,151,381,604,442
+  F,0,118,534,1
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,150,200
+  F,0,0,118,0,1
+  M,0,0,743,141,263,601,263
+  F,0,118,534,1
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,200,200
+  F,0,0,534,1
+  M,0,0,743,30,327,225,-20
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,250,200
+  M,0,0,534,40,332,285,-29
+  F,0,326,534,1
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,300,200
+  M,0,0,534,20,324,135,-27
+  F,0,326,534,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,250,200
+  F,0,0,118,0,1
+  M,0,0,534,382,118,657,24
+  F,0,118,430,1
+  F,0,430,534,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,200,200
+  F,0,0,118,0.104,1
+  M,0,0,534,440,141,667,103
+  F,0,118,430,1
+  F,0,430,534,1,0.02400002
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,150,200
+  F,0,0,118,0,1
+  M,0,0,534,391,91,553,-19
+  F,0,118,430,1
+  F,0,430,534,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,100,200
+  F,0,0,118,1,0
+  M,0,0,534,439,119,653,64
+  F,0,118,430,0
+  F,0,430,534,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,50,200
+  F,0,0,118,0.3493333,1
+  M,0,0,534,146,280,665,252
+  F,0,118,534,1,0.007999878
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,0,200
+  F,0,0,118,0.4026666,1
+  M,0,0,534,147,379,656,397
+  F,0,118,430,1
+  F,0,430,534,1,0.1413332
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,50,200
+  F,0,0,118,0.01333342,1
+  M,0,0,534,120,266,392,-17
+  F,0,118,430,1
+  F,0,430,534,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,100,200
+  F,0,0,118,0.3493335,1
+  M,0,0,534,129,264,659,209
+  F,0,118,430,1
+  F,0,430,534,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,150,200
+  F,0,0,118,0,1
+  M,0,0,743,127,277,668,40
+  F,0,118,534,1
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/star1.png",320,240
+ L,200,200
+  F,0,0,118,0,1
+  M,0,0,743,90,244,433,-17
+  F,0,118,534,1
+  F,0,534,743,1,0
+Sprite,Foreground,Centre,"SB/Title.png",320,240
+ L,250,200
+  M,0,-90,,306,99
+  S,0,-90,79700,1.767999
+ M,0,-90,160,306,99
+Sprite,Foreground,Centre,"SB/Moon.png",320,240
+ S,0,-90,,0.8186665
+ M,0,-90,0,85,248
+ M,0,0,118,85,248
+ M,0,1785,,91,246
+ M,0,3451,,97,244
+ M,0,5118,,103,242
+ M,0,6785,,109,240
+ M,0,8451,,115,238
+ M,0,10118,,121,236
+ M,0,11785,,127,234
+ M,0,13451,,133,235
+ M,0,15118,,138,236
+ M,0,16785,,144,237
+ M,0,18451,,147,238
+ M,0,20118,,150,239
+ M,0,21785,,153,240
+ M,0,23451,,154,243
+ M,0,25118,,154,246
+ M,0,26785,,152,252
+ M,0,28451,,151,255
+ M,0,30118,,149,261
+ M,0,31785,,148,264
+ M,0,33451,,146,270
+ M,0,35118,,145,273
+ M,0,36785,,143,279
+ M,0,38451,,142,282
+ M,0,41785,,140,288
+ M,0,43451,,139,291
+ M,0,45118,,138,297
+ M,0,46785,,137,300
+ M,0,48451,,135,306
+ M,0,50118,,134,309
+ M,0,51785,,132,314
+ M,0,53451,,131,317
+ M,0,55118,,130,323
+ M,0,56785,,129,326
+ M,0,58451,,127,332
+ M,0,60118,,126,335
+ M,0,61785,,124,341
+ M,0,63451,,123,344
+ M,0,65118,,121,350
+ M,0,66785,,120,353
+ M,0,68451,,118,359
+ M,0,70118,,117,362
+ M,0,71785,,115,368
+ M,0,73451,,113,374
+ M,0,75118,,111,380
+ M,0,76785,,110,383
+ M,0,78451,,108,389
+ M,0,79910,,108,389
+Sprite,Foreground,Centre,"SB/World.png",320,240
+ S,0,-90,,0.6906668
+ M,0,-90,0,27,336
+ M,0,0,118,27,336
+ M,0,3451,,22,338
+ M,0,6785,,16,340
+ M,0,10118,,16,340
+ M,0,13451,,10,342
+ M,0,16785,,4,344
+ M,0,20118,,-2,346
+ M,0,23451,,-8,348
+ M,0,26785,,-14,350
+ M,0,30118,,-20,352
+ M,0,33451,,-23,354
+ M,0,36785,,-26,357
+ M,0,40118,,-32,359
+ M,0,43451,,-38,361
+ M,0,46785,,-44,363
+ M,0,50118,,-50,365
+ M,0,53451,,-52,367
+ M,0,56785,,-54,369
+ M,0,60118,,-56,371
+ M,0,63451,,-58,373
+ M,0,66785,,-60,375
+ M,0,70118,,-62,377
+ M,0,73451,,-64,379
+ M,0,76785,,-66,381
+ M,0,79910,,-66,381
+Sprite,Foreground,Centre,"SB/white.png",320,240
+ M,0,-90,1785,320,240
+ F,0,1368,1785,1,0
+//Storyboard Sound Samples

@@ -1,0 +1,42 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"names\cesc.png",320,400
+ MX,1,8283,8507,-320,320
+ MX,2,21716,21939,320,840
+Sprite,Foreground,Centre,"names\Armin.png",320,400
+ MX,1,22611,22835,-320,320
+ MX,2,36939,37163,320,840
+Sprite,Foreground,Centre,"names\mb777.png",320,400
+ MX,1,36939,37163,-320,320
+ MX,2,51268,51492,320,840
+Sprite,Foreground,Centre,"names\mash.png",320,400
+ MX,1,58432,58656,-320,320
+ MX,2,71865,72089,320,840
+Sprite,Foreground,Centre,"names\farto.png",320,400
+ MX,1,72760,72984,-320,320
+ MX,2,87089,87313,320,840
+Sprite,Foreground,Centre,"names\fight.png",320,400
+ MX,1,94253,94477,-320,320
+ MX,2,101193,101417,320,840
+Sprite,Foreground,Centre,"names\redo.png",320,400
+ MX,1,101417,101641,-320,320
+ MX,2,115745,115969,320,840
+Sprite,Foreground,Centre,"names\bass.png",320,400
+ MX,1,115969,116193,-320,320
+ MX,2,122462,122686,320,840
+ F,0,122686,137126,0
+ F,0,137126,137238,0
+ F,0,137238,0,1
+ MX,1,137238,137462,-320,320
+ MX,2,151566,151790,320,840
+Sprite,Foreground,Centre,"names\gonzvlo.png",320,400
+ MX,1,122910,123133,-320,320
+ MX,2,136342,136566,320,840
+Sprite,Foreground,Centre,"names\doomsday.png",320,400
+ MX,1,158730,158954,-320,320
+ MX,2,179999,180223,320,840
+//Storyboard Sound Samples
